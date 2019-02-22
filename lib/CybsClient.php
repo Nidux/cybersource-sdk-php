@@ -15,12 +15,12 @@ class CybsClient extends SoapClient
     private $merchantId;
     private $transactionKey;
 
-    function __construct($options=array(), $properties, $nvp=false)
+    function __construct($options = [], $properties = [], $nvp = false)
     {
         $required = array('merchant_id', 'transaction_key');
 
-        if (!$properties) {
-            throw new Exception('Unable to read cybs.ini.');
+        if (empty($properties)) {
+            throw new Exception('Properties were not set in the constructor or unable to read cybs.ini.');
         }
 
         if ($nvp === true) {

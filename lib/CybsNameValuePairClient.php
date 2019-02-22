@@ -11,9 +11,13 @@ include 'CybsClient.php';
 class CybsNameValuePairClient extends CybsClient
 {
 
-    function __construct($options=array())
+    function __construct($options = [], $properties = [])
     {
-        $properties = parse_ini_file('cybs.ini');
+        if(empty($properties))
+        {
+            //Pull data from cybs.ini, otherwise use data provided to the constructor
+            $properties = parse_ini_file('cybs.ini');
+        }
         parent::__construct($options, $properties, true);
     }
 
