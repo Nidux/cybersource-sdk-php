@@ -1,5 +1,5 @@
 {
-  "name": "cybersource/sdk-php",
+  "name": "nidux/cybersource-sdk-php",
   "description": "CyberSource PHP SOAP client",
   "keywords": [
     "cybersource",

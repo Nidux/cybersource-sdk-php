@@ -1,7 +1,5 @@
-# CyberSource PHP Client
-This is the PHP client for the [CyberSource SOAP Toolkit API](http://www.cybersource.com/developers/getting_started/integration_methods/soap_toolkit_api).
-
-[![Build Status](https://travis-ci.org/CyberSource/cybersource-sdk-php.png?branch=master)](https://travis-ci.org/CyberSource/cybersource-sdk-php)
+# CyberSource PHP Client (Not the official package)
+This is the PHP client for the [CyberSource SOAP Toolkit API](http://www.cybersource.com/developers/getting_started/integration_methods/soap_toolkit_api) but with some adjustments made by Nidux.
 
 ## Packagist
 The cybersource/sdk-php is available at [Packagist](https://packagist.org/packages/cybersource/sdk-php).
